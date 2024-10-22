@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.task-container, .affairs-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.task, .affair {
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 0;
+}
+
+.task:last-child, .affair:last-child {
+    border-bottom: none;
+}
+
+.task h2, .affair p {
+    margin: 0;
+    color: #555;
+}
+
+.task p {
+    font-size: 14px;
+    color: #777;
+}
+
+.task a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.task a:hover {
+    background-color: #2980b9;
+}
+
+.affair p {
+    margin-top: 5px;
+    color: #666;
+}
