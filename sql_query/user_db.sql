@@ -1,0 +1,8 @@
+CREATE TABLE user_data(
+	id SERIAL PRIMARY KEY NOT NULL,
+	username VARCHAR(100) NOT NULL, 
+	email VARCHAR(255) NOT NULL,
+	date_of_birth DATE NOT NULL,
+	password VARCHAR(255) NOT NULL,
+	avatar VARCHAR(255)
+)

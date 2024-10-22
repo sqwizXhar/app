@@ -1,0 +1,6 @@
+CREATE TABLE comments (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    comment TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
